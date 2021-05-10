@@ -76,18 +76,31 @@ i {
 }
 
 #video-content {
+  float: left;
   padding: 25px;
   width: 65%;
   background-color: red;
 }
 
 #sidebar {
-  width: 35%;
+  float: right;
+  width: 25%;
   background-color: green;
+  overflow-y: scroll;
 }
 
-button:hover.search-button:hover {
+#sidebar-filter button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 16px;
+  font-size: 14px;
   color: white;
+  background-color: #3d3d3d;
+}
+
+#sidebar-filter button:hover {
+  background-color: #606060;
 }
 
 form.search-bar input[type=text] {
