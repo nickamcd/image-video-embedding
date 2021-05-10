@@ -61,6 +61,22 @@ i {
   height: 100%;
 }
 
+.video-title {
+  font-size: 20px;
+  margin: 20px 0;
+  color: white;
+}
+
+.video-info {
+  float: left;
+  font-size: 14px;
+  color: #aaa;
+}
+.video-menu {
+  float: right;
+  font-size: 14px;
+}
+
 .video-thumbnail {
   width: 150px;
   margin-right: 8px;
@@ -71,13 +87,13 @@ i {
   margin: 5px;
 }
 
-.video-title {
+.preview-title {
   overflow-wrap: true;
   color: white;
   font-size: 14px;
 }
 
-.video-data {
+.preview-data {
   color: #aaa;
   font-size: 12px;
 }
@@ -106,7 +122,7 @@ i {
 
 #sidebar {
   float: right;
-  width: 25%;
+  width: 30%;
   /*background-color: green;*/
 }
 
