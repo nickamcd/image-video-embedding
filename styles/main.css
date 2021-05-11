@@ -115,11 +115,53 @@ a {
   height: 40px;
   border-radius: 50%;
   float: left;
+  clear: left;
+  margin: 0 5px;
+}
+
+.comment-info span {
+  float: left;
+}
+
+.comment-container {
+  margin: 25px 0;
+}
+
+.comment-username {
+  margin: 0 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.time-commented {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.comment-body {
+  width: 90%;
+  float: right;
+  color: white;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.comment-body p {
+  width: 80%;
+  line-height: 18px;
+  padding-left: 5px;
+}
+
+.comment-actions {
+  float: left;
+  color: #aaa;
+  font-size: 12px;
+  margin: 0 25px;
 }
 
 .video-thumbnail {
   width: 150px;
-  margin-right: 8px;
+  margin-right: 2px;
 }
 
 .video-preview-container {
